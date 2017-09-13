@@ -1,0 +1,13 @@
+<h1>Shopping List:</h1>
+<% @groceries.each do |key, value| %>
+    <ul>
+        <li><%= key %>: <%= value %></li>
+    </ul>
+<% end %>
+
+<h1>Packing List:</h1>
+<% @clothes.each do |key, value| %>
+    <ul>
+        <li><%= key %>: <%= value %></li>
+    </ul>
+<% end %>
